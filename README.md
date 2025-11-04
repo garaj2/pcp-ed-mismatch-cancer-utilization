@@ -27,8 +27,6 @@ The datasets used contain information from 2020-2024 and include the:
 
 ## The Metrics and Definitions
 
-### Definitions
-
 **Number of Cancer Surgeries**: From link, These include surgeries performed for bladder, breast, brain, colon, esophagus, liver, lung, pancreas, prostate, rectum, and stomach cancers, based on the ICD-10 codes in inpatient acute care hospitals. These numbers are aggregatedby year and county.
 
 **Number of PCP Encounters**: From link, These are aggregated by year and county and are the sum of the following metrics:
@@ -36,10 +34,15 @@ Evaluation and Management (new patient) Hospital Related Services Case Managemen
 
 **Number of ED Encounters**: From link, these are aggregated by year and county.
 
-### Metrics
+**Cancer Decile**: Deciles created at the county level for Number of Cancer Surgeries by Year. 1 represents the lowest cancer surgery utilization, while 10 is the highest.
 
-Cancer Decile: Deciles created at the county level for Number of Cancer Surgeries by Year. 1 represents the lowest cancer surgery utilization, while 10 is the highest.
+**PCP Decile**: Deciles created at the county level for PCP Encounters by Year. 1 represents the lowest PCP utilization for that year, while 10 is the highest.
 
-PCP Decile: Deciles created at the county level for PCP Encounters by Year. 1 represents the lowest PCP utilization for that year, while 10 is the highest.
+**ED Decile**: Deciles created at the county level for ED Encounters by Year. 1 represents the lowest ED utilization for that year, while 10 is the highest.
 
-ED Decile: Deciles created at the county level for ED Encounters by Year. 1 represents the lowest ED utilization for that year, while 10 is the highest.
+**PCP Mismatch Index**: The PCP Decile Subtracted from the Cancer Decile. Can range from -9 to 9.
+    *Interpretations: **If negative***, *then PCP Utilization is higher than Cancer Surgery Utilization, signaling either a robust screening of cancer diagnoses or a lack of utilization of specialized cancer care.*
+                      ***If zero***, *then PCP Utilization is roughly similar to Cancer Surgery Utilization, signaling alignment between PCP screening of cancers and cancer care utilization*
+                      ***If positive***, *then PCP Utilization is lower than Cancer Surgery Utilization, signaling a lack of access to primary care and a possible chokepoint for cancer care utilization*
+
+
