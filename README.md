@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This capstone project proposes a hypothetical business need and apply the skills learned in the Google Data Analytics Certificate course to answer the hypothetical stakeholder questions and fill that need.
+This capstone project proposes a hypothetical business need and apply the skills learned in the Google Data Analytics Certificate course to answer the hypothetical stakeholder questions and fill that need. The data used to answer this question was cleaned in R within the ___ folder and visualized in Tableau.
 
 
 ## The Question
@@ -44,5 +44,16 @@ Evaluation and Management (new patient) Hospital Related Services Case Managemen
     *Interpretations: **If negative***, *then PCP Utilization is higher than Cancer Surgery Utilization, signaling either a robust screening of cancer diagnoses or a lack of utilization of specialized cancer care.*
                       ***If zero***, *then PCP Utilization is roughly similar to Cancer Surgery Utilization, signaling alignment between PCP screening of cancers and cancer care utilization*
                       ***If positive***, *then PCP Utilization is lower than Cancer Surgery Utilization, signaling a lack of access to primary care and a possible chokepoint for cancer care utilization*
+
+**ED Mismatch Index**: The ED Decile Subtracted from the Cancer Decile. Can range from -9 to 9.
+    *Interpretations: **If negative***, *then ED Utilization is higher than Cancer Surgery Utilization, signaling potentially higher diagnoses of cancer or a lack of utilization of specialized cancer care.*
+                      ***If zero***, *then ED Utilization is roughly similar to Cancer Surgery Utilization, signaling alignment between ED screening of cancers and cancer care utilization*
+                      ***If positive***, *then ED Utilization is lower than Cancer Surgery Utilization, signaling effective coordination between ED encounters which diagnose cancer and inpatient cancer surgeries.*
+
+## The Results and Interpretation
+
+## The Limitations
+
+## The Conclusions
 
 
