@@ -15,14 +15,14 @@ https://academic.oup.com/jncics/article/8/3/pkae039/7682377).
 ## Data Sources
 All datasets are de-identified and publicly available via the CalHHS Open Data Portal and cover calendar years 2020–2024:
 
-- **Primary Care Clinic Utilization**  
-  <INSERT LINK>
+- **Primary Care Clinic Utilization**:
+  <https://data.chhs.ca.gov/dataset/primary-care-clinic-annual-utilization-data>
 
 - **Hospital Emergency Department – Encounters by Facility**  
-  <INSERT LINK>
+  <https://data.chhs.ca.gov/dataset/hospital-emergency-department-encounters-by-facility>
 
 - **Number of Cancer Surgeries Performed in California Hospitals**  
-  <INSERT LINK>
+  <https://data.chhs.ca.gov/dataset/number-of-cancer-surgeries-volume-performed-in-california-hospitals>
 
 ## Metrics and Definitions
 
