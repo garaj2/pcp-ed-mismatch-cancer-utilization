@@ -74,7 +74,7 @@ Interpretation:
 - **Positive:** Lower PCP utilization relative to cancer surgeries  
   - Possible under-screening or late cancer detection  
 
-### ED Mismatch Index
+### ED Mismatch Index (To do: only aggregate visits)
 Range: **–9 to 9**
 
 Interpretation:
