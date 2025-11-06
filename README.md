@@ -82,12 +82,28 @@ Interpretation:
   - May reflect cancer diagnoses occurring in emergency settings or limited specialty care  
 - **Zero:** Alignment between ED encounters and cancer surgery utilization  
 - **Positive:** Lower ED utilization relative to cancer surgeries  
-  - Possibly effective coordination or fewer emergency-based cancer diagnoses  
-
+  - Possibly effective coordination or fewer emergency-based cancer diagnoses
+ 
+  - If either decile is missing, then the PCP/ED Mismatch Indices are not calculated
 ---
 
 ## Results
 *To be completed:* Summary of key county-level findings, notable mismatches, and geographic patterns observed from 2020–2024. 
+### Overall
+- While PCP,ED, and Cancer Surgery utilization have increased at the county level each year, this change has been minimal (see R file).
+- All counties with missing data from each of these categories tended to be rural in nature, from Northern, Central, and Inland California (see R file).
+  - The most common type of missing data present among counties with missing data was for Cancer Surgeries.
+ 
+### Counties of Interest
+Possible Under-Screening of Cancer or Late-Detection of Cancer (PCP Mismatch Index of 1+)
+          - Placer County (~5 to 6)
+          - Solano and Santa Clara County (3)
+          - San Mateo County and Contra Costa County (~3 to 2)
+          - San Francisco County (increase from 0 to 2 from 2020-2024)
+          
+          
+
+- ED Mismatches
 ---
 
 ## Limitations
