@@ -82,15 +82,15 @@ Interpretation:
   - May reflect cancer diagnoses occurring in emergency settings or limited specialty care  
 - **Zero:** Alignment between ED encounters and cancer surgery utilization  
 - **Positive:** Lower ED utilization relative to cancer surgeries  
-  - Possibly effective coordination or fewer emergency-based cancer diagnoses
+  - Possibly effective coordination or fewer emergency-based cancer diagnoses  
  
 - If either decile is missing, then the PCP/ED Mismatch Indices are not calculated
 ---
 
 ## Results
-# Findings Summary
+### Findings Summary
 
-## 1. Possible Under-Screening or Late Detection at the Primary Care Level
+#### 1. Possible Under-Screening or Late Detection at the Primary Care Level
 **Pattern:** Elevated primary-care utilization relative to cancer surgery volume.  
 **Geography:** Mostly rural counties, with notable exceptions in the Bay Area.
 
@@ -102,7 +102,7 @@ Interpretation:
 
 ---
 
-## 2. Possible Limited Access to Specialty Cancer Care or Strong Preventive Programs
+#### 2. Possible Limited Access to Specialty Cancer Care or Strong Preventive Programs
 **Pattern:** Lower cancer surgery counts relative to expected utilization (negative mismatch values).   
 **Geography:** Mostly rural and mixed (rural and urban) counties.
 
@@ -115,7 +115,7 @@ Interpretation:
 
 ---
 
-## 3. Counties Showing Good Alignment
+#### 3. Counties Showing Good Alignment
 **Pattern:** Cancer surgeries roughly match PCP-level demand.
 
 - **Los Angeles & Orange County** — ~0  
@@ -124,20 +124,20 @@ Interpretation:
 
 ---
 
-## 4. ED Utilization Relative to Cancer Surgeries
+#### 4. ED Utilization Relative to Cancer Surgeries
 
-### Lower ED Use Compared to Cancer Surgery Rates
+#### Lower ED Use Compared to Cancer Surgery Rates
 - **Napa** — 2 → 1  
 - **Marin** — 2 → 0  
 
-### Higher ED Use Compared to Cancer Surgery Rates
+#### Higher ED Use Compared to Cancer Surgery Rates
 - **Madera** — –4 (2020–2022)  
 - **Merced** — ~–2 to –3  
 - **Kings** — –3  
 - **Tulare** — –1 to –2  
 - **Kern** — –2 to –1  
 
-### Overall
+#### Overall
 Most California counties show **no major mismatch** between ED utilization and cancer surgery volume.
 
 
@@ -155,7 +155,15 @@ Most California counties show **no major mismatch** between ED utilization and c
 ---
 
 ## Conclusion
-This project provides a high-level proxy for identifying potential gaps in cancer care coordination across California by comparing primary care and ED utilization against surgical cancer treatment volume. The mismatch indices offer a simplified but actionable signal for organizations interested in improving early detection and ensuring equitable access to specialty cancer care.
+This project provides a high-level proxy for identifying potential gaps in cancer care coordination across California by comparing primary care and ED utilization against surgical cancer treatment volume.   
+
+**Top Priorities**:  
+Among Rural Counties with available data, **Madera, Kings, Merced, Tulare, and Kings** County had notable mismatches in both PCP utilization and ED utilization, with lower PCP utilization and higher ED burden relative to the rest of the state. This indicates a possible multi-faceted non-coordination of care networks in properly screening, referring, and treating patients with commonly diagnosed cancers and should be the top priority for targeting of healthcare products and services related to cancer care. 
+
+**Secondary Priorities**
+Though they did not have any notable mismatches in ED utilization, Placer County and the San Francisco Bay Area Counties of **Solano, Contra Costa, San Mateo, San Francisco, and Napa** had strikingly higher utilization of Cancer Surgeries relative to PCP utilization, indicating possible disparities in PCP availability, resulting in under-screenings or late-detection of common cancers. Any products or services targeting these counties should prioritize increasing access to PCP's and making it easier for cancer patients to receive the surgeries they need.
+
+These indices offer a simplified but actionable signal for organizations interested in improving early detection and ensuring equitable access to specialty cancer care.
 
 ---
 
