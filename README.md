@@ -88,42 +88,58 @@ Interpretation:
 ---
 
 ## Results
-*To be completed:* Summary of key county-level findings, notable mismatches, and geographic patterns observed from 2020–2024. 
+# Findings Summary
+
+## 1. Possible Under-Screening or Late Detection at the Primary Care Level
+**Pattern:** Elevated primary-care utilization relative to cancer surgery volume.  
+**Geography:** Mostly rural counties, with notable exceptions in the Bay Area.
+
+- **Placer** — ~5–6  
+- **Solano**, **Santa Clara** — ~3  
+- **San Mateo**, **Contra Costa** — ~2–3  
+- **San Francisco** — increased from 0 → 2 (2020–2024)  
+- **Napa** — increased from 1 → 2 (2020–2024)
+
+---
+
+## 2. Possible Limited Access to Specialty Cancer Care or Strong Preventive Programs
+**Pattern:** Lower cancer surgery counts relative to expected utilization (negative mismatch values).
+**Geography:** Mostly rural or mixed (rural and urban) counties.
+- **Merced**, **Tulare** — ~–5 to –4  
+- **Fresno**, **Kings**, **San Luis Obispo** — ~–3 to –2  
+- **Del Norte**, **Santa Barbara** — ~–2 to –1  
+- **Lake**, **Sonoma** — –2  
+- **Imperial** — ~–2 to –1  
+- **Sutter** — worsened from –1 → –2 (2020–2024)
+
+---
+
+## 3. Counties Showing Good Alignment
+**Pattern:** Cancer surgeries roughly match PCP-level demand.
+
+- **Los Angeles County** — ~0  
+- **San Diego County** — ~0  
+- **Exception:** **Imperial County**, which shows persistent negative mismatch
+
+---
+
+## 4. ED Utilization Relative to Cancer Surgeries
+
+### Lower ED Use Compared to Cancer Surgery Rates
+- **Napa** — 2 → 1  
+- **Marin** — 2 → 0  
+
+### Higher ED Use Compared to Cancer Surgery Rates
+- **Madera** — –4 (2020–2022)  
+- **Merced** — ~–2 to –3  
+- **Kings** — –3  
+- **Tulare** — –1 to –2  
+- **Kern** — –2 to –1  
+
 ### Overall
-- While PCP,ED, and Cancer Surgery utilization have increased at the county level each year, this change has been minimal (see R file).
-- All counties with missing data from each of these categories tended to be rural in nature, from Northern, Central, and Inland California (see R file).
-  - The most common type of missing data present among counties with missing data was for Cancer Surgeries.
- 
-### Counties of Interest
-Possible Under-Screening of Cancer or Late-Detection of Cancer at Primary Care Level:
-- Primarily in Rural Counties, with exception of Counties within San Francisco Bay Area
-          - Placer County (~5 to 6)
-          - Solano and Santa Clara County (3)
-          - San Mateo County and Contra Costa County (~3 to 2)
-          - San Francisco County (increase from 0 to 2 from 2020-2024)
-          - Napa County (increase from 1 to 2 from 2020-2024)
+Most California counties show **no major mismatch** between ED utilization and cancer surgery volume.
 
-Possible Lack of Access to Specialty Cancer Care or Strong Preventative Screening Program :
-          - Merced County and Tulare County (~ -5 to -4)
-          - Fresno County, Kings County, and San Luis Obispo County ( ~-3 to -2)
-          - Del Norte County and Santa Barbara County(~-2 to -1)
-          - Lake County and Sonoma County (-2)
-          - Imperial County (~-1 to -2)
-          - Sutter County (increase from -1 to -2 from 2020-2024)
-Counties with Good Alignment between Cancer Surgeries and PCP Utilization:
-- San Diego and Los Angeles Areas (~0) except for Imperial County
-          
 
-- Lower ED utilization Relative to Cancer Surgeries
-    - Napa County (2 to 1)
-    - Marin County (2 to 0)
-  - Higher ED utilization Relative to Cancer Surgeries
-      - Madera (-4 from 2020-2022)
-      - Merced (~-2 to -3)
-      - Kings (-3)
-      - Tulare (-1 to -2)
-      - Kern (-2 to -1)
-  - Most counties did not have notable mismatches in ED and Cancer Surgery Utilization.
 ---
 
 ## Limitations
