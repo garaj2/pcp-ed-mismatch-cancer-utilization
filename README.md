@@ -95,7 +95,7 @@ Interpretation:
   - The most common type of missing data present among counties with missing data was for Cancer Surgeries.
  
 ### Counties of Interest
-Possible Under-Screening of Cancer or Late-Detection of Cancer at Primary Care Level (PCP Mismatch Index of 1+):
+Possible Under-Screening of Cancer or Late-Detection of Cancer at Primary Care Level:
 - Primarily in Rural Counties, with exception of Counties within San Francisco Bay Area
           - Placer County (~5 to 6)
           - Solano and Santa Clara County (3)
@@ -103,15 +103,27 @@ Possible Under-Screening of Cancer or Late-Detection of Cancer at Primary Care L
           - San Francisco County (increase from 0 to 2 from 2020-2024)
           - Napa County (increase from 1 to 2 from 2020-2024)
 
-Possible Lack of Access to Specialty Cancer Care or Strong Preventative Screening Program (PCP Mismatch Index of >-1):
+Possible Lack of Access to Specialty Cancer Care or Strong Preventative Screening Program :
           - Merced County and Tulare County (~ -5 to -4)
-          - Fresno County and Kings County ( ~-3 to -2)
-          - San Luis Obispo (-3)
+          - Fresno County, Kings County, and San Luis Obispo County ( ~-3 to -2)
           - Del Norte County and Santa Barbara County(~-2 to -1)
-          
+          - Lake County and Sonoma County (-2)
+          - Imperial County (~-1 to -2)
+          - Sutter County (increase from -1 to -2 from 2020-2024)
+Counties with Good Alignment between Cancer Surgeries and PCP Utilization:
+- San Diego and Los Angeles Areas (~0) except for Imperial County
           
 
-- ED Mismatches
+- Lower ED utilization Relative to Cancer Surgeries
+    - Napa County (2 to 1)
+    - Marin County (2 to 0)
+  - Higher ED utilization Relative to Cancer Surgeries
+      - Madera (-4 from 2020-2022)
+      - Merced (~-2 to -3)
+      - Kings (-3)
+      - Tulare (-1 to -2)
+      - Kern (-2 to -1)
+  - Most counties did not have notable mismatches in ED and Cancer Surgery Utilization.
 ---
 
 ## Limitations
