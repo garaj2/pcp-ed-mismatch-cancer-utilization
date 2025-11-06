@@ -1,5 +1,14 @@
 # California Cancer Care Coordination Analysis (2020–2024)
 
+## Disclaimer
+
+The analyses in this project rely on publicly available datasets from the California Health and Human Services (CalHHS) open data portal.  
+At the time of this work, several fields in the Primary Care Clinic Utilization dataset did not include accompanying documentation or a data dictionary. I contacted CalHHS/HCAI for clarification, have not yet received a response.
+
+Because of this, portions of the interpretation—particularly around how certain utilization metrics are defined, how encounter counts are aggregated, and why data is missing for some rural facilities—are based on the best reasonable assumptions drawn from the available metadata, variable naming conventions, and cross-dataset consistency checks.
+
+Moreover, these interpretations should be understood as **informed estimates**, not official definitions. Findings should not be used to draw definitive conclusions about county-level performance, screening quality, or access to care without further verification from the data stewards.
+
 ## Introduction
 This project analyzes potential gaps in cancer care coordination across California using publicly available encounter data from the California Department of Health and Human Services (CalHHS) Open Data Portal. The work was completed as part of the Google Data Analytics Certificate program and includes data cleaning in R and visualizations in Tableau. All cleaning scripts can be found in the `R_scripts/` folder, and the full interactive dashboard is available in the repository.
 
