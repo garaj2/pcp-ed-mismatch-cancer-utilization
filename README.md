@@ -117,7 +117,7 @@ Interpretation:
 ## 3. Counties Showing Good Alignment
 **Pattern:** Cancer surgeries roughly match PCP-level demand.
 
-- **Los Angeles County** — ~0  
+- **Los Angeles & Orange County** — ~0  
 - **San Diego County** — ~0  
 - **Exception:** **Imperial County**, which shows persistent negative mismatch
 
