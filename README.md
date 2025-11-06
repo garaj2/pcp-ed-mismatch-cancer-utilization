@@ -95,11 +95,19 @@ Interpretation:
   - The most common type of missing data present among counties with missing data was for Cancer Surgeries.
  
 ### Counties of Interest
-Possible Under-Screening of Cancer or Late-Detection of Cancer (PCP Mismatch Index of 1+)
+Possible Under-Screening of Cancer or Late-Detection of Cancer at Primary Care Level (PCP Mismatch Index of 1+):
+- Primarily in Rural Counties, with exception of Counties within San Francisco Bay Area
           - Placer County (~5 to 6)
           - Solano and Santa Clara County (3)
           - San Mateo County and Contra Costa County (~3 to 2)
           - San Francisco County (increase from 0 to 2 from 2020-2024)
+          - Napa County (increase from 1 to 2 from 2020-2024)
+
+Possible Lack of Access to Specialty Cancer Care or Strong Preventative Screening Program (PCP Mismatch Index of >-1):
+          - Merced County and Tulare County (~ -5 to -4)
+          - Fresno County and Kings County ( ~-3 to -2)
+          - San Luis Obispo (-3)
+          - Del Norte County and Santa Barbara County(~-2 to -1)
           
           
 
