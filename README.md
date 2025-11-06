@@ -29,7 +29,7 @@ All datasets are de-identified and publicly available via the CalHHS Open Data P
 ### Cancer Surgeries
 Count of selected cancer surgeries (bladder, breast, brain, colon, esophagus, liver, lung, pancreas, prostate, rectum, stomach) performed in inpatient acute care hospitals. Values were aggregated by **county** and **year**.
 
-### PCP Encounters
+### PCP Encounters  
 Sum of encounter categories from the Primary Care dataset, aggregated by county and year. Included categories:
 
 - Evaluation and Management (established patient)  
@@ -158,9 +158,9 @@ Most California counties show **no major mismatch** between ED utilization and c
 This project provides a high-level proxy for identifying potential gaps in cancer care coordination across California by comparing primary care and ED utilization against surgical cancer treatment volume.   
 
 **Top Priorities**:  
-Among Rural Counties with available data, **Madera, Kings, Merced, Tulare, and Kings** County had notable mismatches in both PCP utilization and ED utilization, with lower PCP utilization and higher ED burden relative to the rest of the state. This indicates a possible multi-faceted non-coordination of care networks in properly screening, referring, and treating patients with commonly diagnosed cancers and should be the top priority for targeting of healthcare products and services related to cancer care. 
+Among Rural Counties with available data, **Madera,Merced, Tulare, and Kings** County had notable mismatches in both PCP utilization and ED utilization, with lower PCP utilization and higher ED burden relative to the rest of the state. This indicates a possible multi-faceted non-coordination of care networks in properly screening, referring, and treating patients with commonly diagnosed cancers and should be the top priority for targeting of healthcare products and services related to cancer care. 
 
-**Secondary Priorities**
+**Secondary Priorities**:    
 Though they did not have any notable mismatches in ED utilization, Placer County and the San Francisco Bay Area Counties of **Solano, Contra Costa, San Mateo, San Francisco, and Napa** had strikingly higher utilization of Cancer Surgeries relative to PCP utilization, indicating possible disparities in PCP availability, resulting in under-screenings or late-detection of common cancers. Any products or services targeting these counties should prioritize increasing access to PCP's and making it easier for cancer patients to receive the surgeries they need.
 
 These indices offer a simplified but actionable signal for organizations interested in improving early detection and ensuring equitable access to specialty cancer care.
