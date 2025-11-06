@@ -84,7 +84,7 @@ Interpretation:
 - **Positive:** Lower ED utilization relative to cancer surgeries  
   - Possibly effective coordination or fewer emergency-based cancer diagnoses
  
-  - If either decile is missing, then the PCP/ED Mismatch Indices are not calculated
+- If either decile is missing, then the PCP/ED Mismatch Indices are not calculated
 ---
 
 ## Results
@@ -103,8 +103,9 @@ Interpretation:
 ---
 
 ## 2. Possible Limited Access to Specialty Cancer Care or Strong Preventive Programs
-**Pattern:** Lower cancer surgery counts relative to expected utilization (negative mismatch values).
-**Geography:** Mostly rural or mixed (rural and urban) counties.
+**Pattern:** Lower cancer surgery counts relative to expected utilization (negative mismatch values).   
+**Geography:** Mostly rural and mixed (rural and urban) counties.
+
 - **Merced**, **Tulare** — ~–5 to –4  
 - **Fresno**, **Kings**, **San Luis Obispo** — ~–3 to –2  
 - **Del Norte**, **Santa Barbara** — ~–2 to –1  
