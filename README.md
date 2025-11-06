@@ -74,7 +74,7 @@ Interpretation:
 - **Positive:** Lower PCP utilization relative to cancer surgeries  
   - Possible under-screening or late cancer detection  
 
-### ED Mismatch Index (To do: only aggregate visits)
+### ED Mismatch Index 
 Range: **–9 to 9**
 
 Interpretation:
@@ -87,13 +87,15 @@ Interpretation:
 ---
 
 ## Results
-*To be completed:* Summary of key county-level findings, notable mismatches, and geographic patterns observed from 2020–2024.
-
+*To be completed:* Summary of key county-level findings, notable mismatches, and geographic patterns observed from 2020–2024. 
 ---
 
 ## Limitations
+- Encounters ≠ people.
+  - Some people may individually have greater or fewer numbers of each type of encounters, which may skew results. Deciles are used to try and standardize these measurements, but patient-level data would still be preferred for this type of analysis if available.
 - Encounter data do not indicate cancer stage, screening history, or referral pathways.  
-- Cancer surgeries performed outside a patient’s home county are not captured.  
+- Cross-county utilization of cancer surgeries not captured.
+  - e.g. encounters of cancer care outside of patient's home county due to lack of access.
 - Deciles describe **relative** utilization, not population-adjusted rates.  
 - Data availability varies by year and county.
 
