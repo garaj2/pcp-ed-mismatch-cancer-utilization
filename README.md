@@ -6,11 +6,7 @@ This project analyzes potential gaps in cancer care coordination across Californ
 ## Business Question
 A hypothetical insurance/health-technology company is interested in identifying California counties where cancer care may be fragmented. They want to understand where primary care (PCP), emergency department (ED), and inpatient cancer surgery utilization are misaligned, as these mismatches may signal gaps in screening, referral processes, or specialty access. Insights from this analysis could help target resources, products, and outreach programs for populations at risk of late cancer detection or limited specialty care access.
 
-Research shows that underserved and minority populations are more likely to be diagnosed with cancer in the ED rather than in primary care settings due to factors such as poverty, limited access, and underinsurance  
-(References:  
-https://pubmed.ncbi.nlm.nih.gov/36374497/,  
-https://pmc.ncbi.nlm.nih.gov/articles/PMC12284740/,  
-https://academic.oup.com/jncics/article/8/3/pkae039/7682377).
+Research shows that underserved and minority populations are more likely to be diagnosed with cancer in the ED rather than in primary care settings due to factors such as poverty, limited access, and underinsurance ([1], [2], [3]).
 
 ## Data Sources
 All datasets are de-identified and publicly available via the CalHHS Open Data Portal and cover calendar years 2020–2024:
@@ -89,6 +85,8 @@ Interpretation:
 
 ## Results
 ### Findings Summary
+
+#### PCP Utilization Relative to Cancer Surgeries
 
 #### 1. Possible Under-Screening or Late Detection at the Primary Care Level
 **Pattern:** Elevated primary-care utilization relative to cancer surgery volume.  
@@ -169,7 +167,8 @@ Though they did not have any associated mismatches in ED utilization, **Placer C
 
 Any products or services targeting these counties should prioritize increasing access to and volume of primary care resources, making it easier for cancer patients to receive the surgeries they need.
 
-These indices offer a simplified but actionable signal for organizations interested in improving early detection and ensuring equitable access to specialty cancer care.
+
+All in all, these indices offer a simplified but actionable signal for organizations interested in improving early detection and ensuring equitable access to specialty cancer care.
 
 ---
 
@@ -185,4 +184,10 @@ Moreover, these interpretations should be understood as **informed estimates**, 
 ## Code and Reproducibility
 All R code used to clean and prepare the data is available in the `R_scripts/` directory.  
 The Tableau workbook used to generate the final dashboard is included in the `visualizations/` folder.
+
+## References
+[1]: https://pubmed.ncbi.nlm.nih.gov/36374497/
+[2]: https://pmc.ncbi.nlm.nih.gov/articles/PMC12284740/
+[3]: https://academic.oup.com/jncics/article/8/3/pkae039/7682377
+
 
