@@ -182,8 +182,8 @@ Because of this, portions of the interpretation—particularly around how certai
 Moreover, these interpretations should be understood as **informed estimates**, not official definitions. Findings should not be used to draw definitive conclusions about county-level performance, screening quality, or access to care without further verification from the data stewards.
 
 ## Code and Reproducibility
-All R code used to clean and prepare the data is available in the `R_scripts/` directory.  
-The Tableau workbook used to generate the final dashboard is included in the `visualizations/` folder.
+All R code used to clean and prepare the data is available in the `R_script/` directory.  
+The Tableau workbook used to generate the final dashboard is included in the `visualization/` folder.
 
 ## References
 [1]: https://pubmed.ncbi.nlm.nih.gov/36374497/
