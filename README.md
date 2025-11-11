@@ -148,7 +148,7 @@ Most California counties show **no major mismatch** between ED utilization and c
 - Cross-county utilization of cancer surgeries not captured.
   - e.g. encounters of cancer care outside of patient's home county due to lack of access.
 - Deciles describe **relative** utilization, not population-adjusted rates.  
-- Data availability varies by year and county.
+- Data availability varies by year and county; Northern and Inland counties tend to have more missing data per year than other counties.
 
 ---
 
@@ -185,7 +185,7 @@ Moreover, these interpretations should be understood as **informed estimates**, 
 All R code used to clean and prepare the data is available in the `R_script/` directory.  
 The Tableau workbook used to generate the final dashboard is included in the `visualization/` folder.
 
-## References
+
 [1]: https://pubmed.ncbi.nlm.nih.gov/36374497/
 [2]: https://pmc.ncbi.nlm.nih.gov/articles/PMC12284740/
 [3]: https://academic.oup.com/jncics/article/8/3/pkae039/7682377
