@@ -175,7 +175,7 @@ All in all, these indices offer a simplified but actionable signal for organizat
 ## Disclaimer
 
 The analyses in this project rely on publicly available datasets from the California Health and Human Services (CalHHS) open data portal.  
-At the time of this work, several fields in the Primary Care Clinic Utilization dataset did not include accompanying documentation or a data dictionary. I contacted CalHHS/HCAI for clarification, and have not received a response.
+At the time of this work, the Primary Care Clinic Utilization dataset did not include a data dictionary. I contacted CalHHS/HCAI for clarification, and have not received a response.
 
 Because of this, portions of the interpretation—particularly around how certain utilization metrics are defined, how encounter counts are aggregated, and why data is missing for some rural facilities—are based on the best reasonable assumptions drawn from the available metadata, variable naming conventions, and cross-dataset consistency checks.
 
